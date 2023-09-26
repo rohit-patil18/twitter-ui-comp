@@ -534,6 +534,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
