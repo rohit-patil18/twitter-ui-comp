@@ -25,6 +25,7 @@ module.exports = {
         "card-fill": "#16181C",
         "green-success": "#00BE74",
         "red-error": "#8B141A",
+        "stroke": "rgba(29, 155, 240, 0.24)"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -41,6 +42,13 @@ module.exports = {
       width: {
         "button-medium": "334px",
         "button-large": "442px",
+      },
+      borderRadius: {
+        "button-small": "30px",
+        "button-medium": "65px",
+      },
+      boxShadow: {
+        button: "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
       }
     },
   },
