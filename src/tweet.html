@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet Component</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000">
+    <div
+      class="w-tweet flex bg-neutral-1000 p-tweet gap-4 border-b border-neutral-700"
+    >
+      <div class="w-12 h-12 shrink-0">
+        <img src="../public/images/user-avatar.svg" alt="Profile image" />
+      </div>
+
+      <div>
+        <div class="flex gap-2 items-center">
+          <p class="text-neutral-50 text-base font-medium">Name</p>
+          <p class="text-neutral-500">@handle • 10h</p>
+        </div>
+
+        <div class="text-base text-neutral-50 mt-1 mb-2">
+          Writing gets easier after the first sentence.
+          <br />
+          <br />
+          Lifting gets easier after the first set.
+
+          <br />
+          <br />
+          People think and think and think until they finally decide to act.
+          Their attention shifts from internal to external, and the difficulty
+          they created in their mind vanishes.
+        </div>
+
+        <div class="py-3 flex justify-between items-center">
+          <div class="flex gap-[5px]">
+            <img src="../public/images/comment-sv.svg" alt="comment" />
+            <p class="text-sm text-neutral-500">11</p>
+          </div>
+          <div class="flex gap-[5px]">
+            <img src="../public/images/retweet-sv.svg" alt="retweet" />
+            <p class="text-sm text-neutral-500">270</p>
+          </div>
+          <div class="flex gap-[5px]">
+            <img src="../public/images/heart-sv.svg" alt="like" />
+            <p class="text-sm text-neutral-500">1,869</p>
+          </div>
+          <div class="flex gap-[5px]">
+            <img src="../public/images/reach-sv.svg" alt="views" />
+            <p class="text-sm text-neutral-500">99.6K</p>
+          </div>
+          <div>
+            <img src="../public/images/share-sv.svg" alt="share" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

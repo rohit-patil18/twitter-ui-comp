@@ -38,6 +38,8 @@ module.exports = {
         "medium-2": "15px 93px",
         "large-2": "20px",
         "small-3": "6px 16px",
+        "card": "10px 15px",
+        "tweet": "8px 16px",
       },
       width: {
         "button-medium": "334px",
@@ -45,6 +47,13 @@ module.exports = {
         "input-1": "426px",
         "input-2": "434px",
         "input-3": "348px",
+        "card": "482px",
+        "tweet": "566px",
+      },
+      height: {
+        "card-md": "335px",
+        "card-sm": "203px",
+        "tweet": "205px",
       },
       borderRadius: {
         "button-small": "30px",
