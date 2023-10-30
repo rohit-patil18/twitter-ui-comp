@@ -7,12 +7,31 @@
     <title>Button</title>
   </head>
 
-  <body class="bg-black m-8">
+  <body class="bg-black mx-8">
+    <div
+      class="px-20 pt-5 flex justify-between border-b border-neutral-700 bg-neutral-1000"
+    >
+      <a href="./button.html">
+        <button
+          type="button"
+          class="pb-4 border-b-[3px] border-solid text-neutral-50 border-twitter-blue-default"
+        >
+          Button
+        </button>
+      </a>
+      <a href="./input.html">
+        <button type="button" class="pb-4 text-neutral-400">Input</button>
+      </a>
+      <a href="./card.html">
+        <button type="button" class="pb-4 text-neutral-50">Card</button>
+      </a>
+      <a href="./tweet.html">
+        <button type="button" class="pb-4 text-neutral-400">Tweet</button>
+      </a>
+    </div>
     <div class="flex">
       <div class="flex flex-col gap-6 items-center mx-20 my-10">
-        <h1 class="text-neutral-50 font-inter">
-          Default
-        </h1>
+        <h1 class="text-neutral-50 font-inter">Default</h1>
         <button
           type="button"
           class="bg-neutral-50 w-button-medium p-medium-1 rounded-button-medium font-inter font-bold text-base hover:cursor-pointer hover:bg-neutral-200 text-neutral-1000 shadow-button"
@@ -42,9 +61,7 @@
         </button>
       </div>
       <div class="flex flex-col gap-6 items-center mx-20 my-10">
-        <h1 class="text-neutral-50 font-inter">
-          Disabled
-        </h1>
+        <h1 class="text-neutral-50 font-inter">Disabled</h1>
         <button
           type="button"
           class="bg-neutral-50 w-button-medium p-medium-1 rounded-button-medium font-inter cursor-auto font-bold text-base bg-opacity-50 text-neutral-1000 shadow-button"
@@ -147,7 +164,9 @@
           </div>
         </div>
       </div>
-      <div class="w-[438px] px-20 pt-5 flex justify-between border-b border-neutral-700">
+      <div
+        class="w-[438px] px-20 pt-5 flex justify-between border-b border-neutral-700"
+      >
         <button
           type="button"
           class="pb-4 border-b-[3px] border-solid text-neutral-400 focus:text-neutral-50 border-transparent focus:border-twitter-blue-default"
