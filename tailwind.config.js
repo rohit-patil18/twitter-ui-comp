@@ -42,6 +42,9 @@ module.exports = {
       width: {
         "button-medium": "334px",
         "button-large": "442px",
+        "input-1": "426px",
+        "input-2": "434px",
+        "input-3": "348px",
       },
       borderRadius: {
         "button-small": "30px",

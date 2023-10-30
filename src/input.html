@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Components</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-black m-8">
+    <div>
+      <p class="text-neutral-50 mb-2">Default:</p>
+
+      <fieldset
+        class="rounded group border border-solid border-neutral-500 focus-within:border-twitter-blue-default w-input-1"
+      >
+        <legend
+          class="text-xs font-medium ml-4 text-neutral-500 group-focus-within:text-twitter-blue-default"
+        >
+          <span class="px-1">Label</span>
+        </legend>
+        <input
+          class="w-full text-neutral-50 bg-transparent pt-2 px-3 pb-4 outline-none text-xl"
+          placeholder="label"
+        />
+      </fieldset>
+
+      <br />
+
+      <p class="text-neutral-50 mb-2">Selected:</p>
+
+      <fieldset
+        class="rounded group border border-solid border-twitter-blue-default w-input-1"
+      >
+        <legend class="text-xs font-medium ml-4 text-twitter-blue-default">
+          <span class="px-1">Label</span>
+        </legend>
+        <div class="w-full flex items-center">
+          <input
+            class="w-full text-neutral-50 bg-transparent pt-2 px-3 pb-4 outline-none text-xl"
+            placeholder="label"
+            value="value"
+            readonly
+          />
+
+          <img src="../public/images/correct.svg" alt="correct" class="mr-3" />
+        </div>
+      </fieldset>
+    </div>
+
+    <br />
+
+    <div>
+      <p class="text-neutral-50 mb-2">Default:</p>
+      <div class="flex">
+        <img
+          src="../public/images/user-avatar.svg"
+          alt="user avatar"
+          class="mr-3"
+        />
+
+        <input
+          class="w-input-2 bg-transparent text-neutral-50 outline-none caret-twitter-blue-default font-inter text-xl leading-none"
+          placeholder="What’s happening?!"
+        />
+      </div>
+
+      <br />
+
+      <p class="text-neutral-50 mb-2">Filled:</p>
+      <div class="flex">
+        <img
+          src="../public/images/user-avatar.svg"
+          alt="user avatar"
+          class="mr-3"
+        />
+
+        <input
+          class="w-input-2 bg-transparent text-neutral-50 outline-none caret-twitter-blue-default font-inter text-xl leading-none"
+          placeholder="What’s happening?!"
+          value="Don't wish for it, work for it."
+        />
+      </div>
+    </div>
+
+    <br />
+
+    <div>
+      <p class="text-neutral-50 mb-2">Default:</p>
+      <div
+        class="bg-searchbar-fill w-input-3 h-[39px] flex py-[10px] px-4 rounded-full group border border-solid border-transparent focus-within:border-twitter-blue-default outline-none items-center"
+      >
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="mr-4"
+        >
+          <g id="Group">
+            <path
+              id="Vector"
+              d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+              fill="#737373"
+              class="fill-neutral-500 group-focus-within:fill-twitter-blue-default"
+            />
+          </g>
+        </svg>
+
+        <input
+          class="bg-transparent outline-none text-neutral-50 w-full text-base"
+          type="text"
+          placeholder="Search"
+        />
+      </div>
+
+      <br />
+
+      <p class="text-neutral-50 mb-2">Filled:</p>
+      <div
+        class="bg-searchbar-fill w-input-3 h-[39px] flex py-[10px] px-4 rounded-full border border-solid border-twitter-blue-default outline-none items-center"
+      >
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="mr-4"
+        >
+          <g id="Group">
+            <path
+              id="Vector"
+              d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+              fill="#737373"
+              class="fill-twitter-blue-default"
+            />
+          </g>
+        </svg>
+
+        <input
+          class="bg-transparent outline-none text-neutral-50 w-full text-base"
+          type="text"
+          placeholder="Search"
+          value="Search"
+          readonly
+        />
+      </div>
+    </div>
+  </body>
+</html>
